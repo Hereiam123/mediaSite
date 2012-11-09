@@ -4,6 +4,13 @@
 	margin: 0 auto;
 }
 
+#map_canvas {
+     height:300px;
+	 width:500px;
+	 margin: 0; 
+	 padding: 0;
+}
+
 #header
 {
 	font-size:50px;

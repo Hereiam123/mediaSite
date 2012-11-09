@@ -13,6 +13,10 @@
 	{
 		width: 30%;
 	}
+	#map_canvas {
+     height:300px;
+	 width:300px;
+	}
 }
 
 @media screen and (max-width: 650px)
@@ -40,6 +44,10 @@
 		text-align:center;
 		height:25px;
 		padding:5px;
+	}
+	#map_canvas {
+     height:200px;
+	 width:200px;
 	}
 	
 	.video embed,
