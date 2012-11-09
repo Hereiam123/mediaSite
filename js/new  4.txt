@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$('#submit').click(function() { 
+		var searchVal = $('#search').val();
+		$.ajax({
+			type: 'GET',
+			url: 'getReps.php',
+			data: 'search=' + searchVal,
+			dataType: 'html',
+			success: function(response) {
+				$('#theResults').html(response);
+			}
+		});
+	});
+});

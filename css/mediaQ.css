@@ -1,0 +1,53 @@
+@media screen and (max-width: 980px)
+{
+	#thePage
+	{
+		width:95%;
+	}
+	#content
+	{
+		width:60%;
+		padding: 3% 4%;
+	}
+	#sidebar
+	{
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+	#header
+	{
+		height:auto;
+		font-size:30px;
+	}
+	#content
+	{
+		width:auto;
+		float:none;
+		margin:20px 0;
+	}
+	#sidebar
+	{
+		width:100%;
+		float:none;
+		margin:0;
+	}
+	#footer
+	{
+		font-size:20px;
+		text-align:center;
+		height:25px;
+		padding:5px;
+	}
+	
+	.video embed,
+	.video object,
+	.video iframe,
+	video
+	{
+		width: 100%;
+		height: auto;
+	}
+}
